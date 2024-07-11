@@ -7,22 +7,40 @@ export default function Navbar() {
       <div className="items-center justify-center p-4">
         <div className="">
           <nav className="flex justify-center space-x-10 text-xl">
-            <a href="#home" className="hover:text-gray-300">
+            <a
+              href="#home"
+              className="hover:text-purple-400 transform duration-300 transform duration-300"
+            >
               Home
             </a>
-            <a href="#about" className="hover:text-gray-300">
+            <a
+              href="#about"
+              className="hover:text-purple-400 transform duration-300"
+            >
               About
             </a>
-            <a href="#services" className="hover:text-gray-300">
-              Services
+            <a
+              href="#Stack"
+              className="hover:text-purple-400 transform duration-300"
+            >
+              Stack
             </a>
-            <a href="#contact" className="hover:text-gray-300">
+            <a
+              href="#work"
+              className="hover:text-purple-400 transform duration-300"
+            >
+              Work
+            </a>
+            <a
+              href="#contact"
+              className="hover:text-purple-400 transform duration-300"
+            >
               Contact
             </a>
           </nav>
-          <hr class="border-t border-gray-300" />
         </div>
       </div>
+      <hr class="border-t border-purple-400" />
       <Home />
     </>
   );

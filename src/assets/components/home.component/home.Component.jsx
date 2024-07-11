@@ -4,7 +4,7 @@ import Svg from "./svg.Component/svg.Home.Component";
 import Social from "./social.Home.Components/social.Home.Components";
 import HeadText from "./headText.Home.Component/headText.Home.Component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLetterboxd, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faCopy, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 export default function Home() {
   return (
     <>
@@ -13,7 +13,7 @@ export default function Home() {
           <HeadText />
           <Social />
           <div className="grid grid-cols-5 grid-rows-1 gap-2 pt-10">
-            <div className="col-span-2">
+            <div className="col-span-2 ">
               <Svg />
             </div>
             <div className=" p-4 flex items-center col-span-3">
@@ -32,14 +32,11 @@ export default function Home() {
                 </p>
                 {/* buttons */}
                 <div className="flex space-x-4">
-                  {/* Blur Button */}
-                  <button className="px-4 py-2 bg-gray-300 text-gray-800 rounded-lg shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all duration-300">
-                    Blur Button <FontAwesomeIcon icon={faYoutube} />
+                  <button className="px-10 py-1 bg-gray-200 text-gray-800 rounded-lg shadow-md hover:shadow-lg hover:bg-purple-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 transform duration-300">
+                    Contact me <FontAwesomeIcon icon={faEnvelope} />
                   </button>
-
-                  {/* Gray Button */}
-                  <button className="px-4 py-2 bg-gray-500 text-white rounded-lg shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-700 transition-all duration-300">
-                    Gray Button
+                  <button className="px-10 py-1 bg-gray-400 text-black rounded-lg shadow-md hover:bg-purple-400 hover:text-white hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-700 transform duration-500">
+                    Copy email <FontAwesomeIcon icon={faCopy} />
                   </button>
                 </div>
               </div>
