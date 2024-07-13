@@ -3,8 +3,8 @@ import "../home.Component.css";
 const Svg = () => {
   return (
     <>
-      <div className="flex justify-end">
-        <svg height="280" width="265">
+      <div className="flex justify-end p-0">
+        <svg height="280" width="265" className="w-80 lg:w-30">
           {/* Define the clipping path */}
           <defs>
             <clipPath id="polygon-clip">
