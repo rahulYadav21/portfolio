@@ -5,6 +5,10 @@ import Social from "./social.Home.Components/social.Home.Components";
 import HeadText from "./headText.Home.Component/headText.Home.Component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy, faEnvelope } from "@fortawesome/free-regular-svg-icons";
+// import { CIcon } from "@coreui/icons-react";
+import { cilArrowCircleBottom } from "@coreui/icons";
+import CIcon from "@coreui/icons-react";
+import About from "../about.Component/about.component";
 export default function Home() {
   const email = "yadavrahul.cs@gmail.com";
   const copiedEmail = () => {
@@ -20,7 +24,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="home border">
+      <div className="home">
         <div className="container mx-auto p-4 pb-10 lg:pb-16 2xl:pb-32">
           <HeadText />
           <Social />
@@ -61,7 +65,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="scroll-button flex justify-center">
+          <div className="icon">
+            <CIcon icon={cilArrowCircleBottom} className="w-10" />
+          </div>
+        </div>
       </div>
+      {/* <About /> */}
     </>
   );
 }
