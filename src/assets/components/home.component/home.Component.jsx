@@ -5,7 +5,6 @@ import Social from "./social.Home.Components/social.Home.Components";
 import HeadText from "./headText.Home.Component/headText.Home.Component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy, faEnvelope } from "@fortawesome/free-regular-svg-icons";
-// import { CIcon } from "@coreui/icons-react";
 import { cilArrowCircleBottom } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
 import About from "../about.Component/about.component";
@@ -71,7 +70,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <About /> */}
+      <About />
     </>
   );
 }

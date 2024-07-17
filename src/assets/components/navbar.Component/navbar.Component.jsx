@@ -42,7 +42,6 @@ export default function Navbar() {
         </div>
       </div>
       <hr class="border-t border-purple-400" />
-      <Home />
       <Outlet />
     </>
   );
