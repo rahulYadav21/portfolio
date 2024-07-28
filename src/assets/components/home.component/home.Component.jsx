@@ -36,17 +36,19 @@ export default function Home() {
             </div>
             <div className="flex items-center lg:col-span-1 lg:w-4/5 xl:w-4/5 2xl:w-4/5 2xl:-mx-44 lg:-mx-28 ">
               <div className="profile-text">
-                <h1 className="text-5xl">Rahul Yadav</h1>
+                <h1 className="text-5xl Montserrat">Rahul Yadav</h1>
                 <blockquote>
                   <i className="text-xl">&mdash; Software Engineer</i>
                 </blockquote>
                 <hr class="border-t border-gray-300" />
 
-                <p className="text-justify pb-4 ">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p className="text-justify pb-4 noto-sans-georgian">
+                  I am Rahul Yadav, a passionate and dedicated software engineer
+                  based in Bengaluru, India. Holding a B.Tech in Computer
+                  Science & Engineering, I specialize in crafting scalable and
+                  innovative web applications. My expertise lies in developing
+                  robust front-end interfaces and comprehensive full-stack
+                  solutions.
                 </p>
                 {/* buttons */}
                 <div className="flex space-x-1 gap-1 justify-center md:justify-start lg:justify-start xl:justify-start 2xl:justify-start">
