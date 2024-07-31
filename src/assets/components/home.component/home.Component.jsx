@@ -36,13 +36,15 @@ export default function Home() {
             </div>
             <div className="flex items-center lg:col-span-1 lg:w-4/5 xl:w-4/5 2xl:w-4/5 2xl:-mx-44 lg:-mx-28 ">
               <div className="profile-text">
-                <h1 className="text-5xl Montserrat">Rahul Yadav</h1>
+                <h1 className="playfair-display text-5xl">Rahul Yadav</h1>
                 <blockquote>
-                  <i className="text-xl">&mdash; Software Engineer</i>
+                  <i className="Montserrat text-xl">
+                    &mdash; Software Engineer
+                  </i>
                 </blockquote>
                 <hr class="border-t border-gray-300" />
 
-                <p className="text-justify pb-4 noto-sans-georgian">
+                <p className="text-justify pb-4 josefin-sans text-gray-400 tracking-tighter lg:tracking-normal">
                   I am Rahul Yadav, a passionate and dedicated software engineer
                   based in Bengaluru, India. Holding a B.Tech in Computer
                   Science & Engineering, I specialize in crafting scalable and
@@ -68,7 +70,10 @@ export default function Home() {
         </div>
         <div className="scroll-button flex justify-center">
           <div className="icon">
-            <CIcon icon={cilArrowCircleBottom} className="w-10" />
+            <CIcon
+              icon={cilArrowCircleBottom}
+              className="w-10 hover:text-purple-600"
+            />
           </div>
         </div>
       </div>
