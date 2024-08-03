@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <div className="home">
-        <div className="container mx-auto p-4 pb-10 lg:pb-16 2xl:pb-32">
+        <div className="container mx-auto p-5 pb-10 lg:pb-9 2xl:pb-32">
           <HeadText />
           <Social />
           <div className="grid grid-cols-1 grid-rows-2 gap-2 pt-4 lg:pt-10 xl:pt-10 2xl:pt-20 lg:grid-cols-2 lg:grid-rows-1 2xl:grid-cols-2 2xl:grid-rows-1">
@@ -42,7 +42,7 @@ export default function Home() {
                     &mdash; Software Engineer
                   </i>
                 </blockquote>
-                <hr class="border-t border-gray-300" />
+                <hr class="border-t border-purple-400" />
 
                 <p className="text-justify pb-4 josefin-sans text-gray-400 tracking-tighter lg:tracking-normal">
                   I am Rahul Yadav, a passionate and dedicated software engineer
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="scroll-button flex justify-center">
+        <div className="scroll-button flex justify-center 2xl:pb-10">
           <div className="icon">
             <CIcon
               icon={cilArrowCircleBottom}

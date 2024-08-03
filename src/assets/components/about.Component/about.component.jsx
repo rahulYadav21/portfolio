@@ -7,6 +7,7 @@ export default function About() {
       <div className="about container mx-auto p-5 pt-10 pb-10 lg:w-2/3 2xl:w-1/2">
         <div className="container pb-3 mx-auto">
           <p className="playfair-display text-4xl">About me.</p>
+
           <p className="josefin-sans text-xl text-gray-400 pt-2">
             A few things you should know.
           </p>
@@ -14,7 +15,7 @@ export default function About() {
 
         <div className="grid grid-rows-1 lg:grid-rows-1 lg:grid-cols-12">
           <div className="col-span-12 lg:col-span-5">
-            <div className="p-0 lg:pt-5 lg:pe-10 lg:pb-5 lg:ps-0 justify-center flex">
+            <div className="p-0 lg:pt-5 lg:pe-5 lg:pb-5 lg:ps-0 justify-center flex">
               <img
                 src="public/profile-pic/photo_5_2024-07-12_00-28-55.jpg"
                 className="w-full lg:w-full size-fit lg:size-fit"

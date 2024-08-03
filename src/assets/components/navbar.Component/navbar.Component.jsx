@@ -1,12 +1,11 @@
 import React from "react";
-import Home from "../home.component/home.Component";
 import { Link, Outlet } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <>
-      <div className="items-center justify-center p-2">
-        <div className="">
+      <div className="fixed top-0 left-0 w-full bg-white z-50">
+        <div className="p-2">
           <nav className="flex justify-center space-x-6 text-lg lg:space-x-20 2xl:space-x-28">
             <Link
               to="/"
@@ -40,9 +39,12 @@ export default function Navbar() {
             </Link>
           </nav>
         </div>
+        <hr className="border-t border-purple-400" />
       </div>
-      <hr class="border-t border-purple-400" />
-      <Outlet />
+
+      <div className="lg">
+        <Outlet />
+      </div>
     </>
   );
 }

@@ -1,4 +1,24 @@
 import React from "react";
+import {
+  BootstrapIcon,
+  CssIcon,
+  DataStructureIcon,
+  ExpressIcon,
+  GitIcon,
+  HtmlIcon,
+  JavaIcon,
+  JavaScriptIcon,
+  JqueryIcon,
+  MDBIcon,
+  MongoDBIcon,
+  MUIIcon,
+  MysqlIcon,
+  NodeIcon,
+  ReactIcon,
+  ReduxIcon,
+  SpringIcon,
+  TailwindIcon,
+} from "../icons.Comopnent/icons.Comopnent";
 
 export default function Stack() {
   return (
@@ -6,17 +26,74 @@ export default function Stack() {
       <div className="container mx-auto p-5 pt-10 pb-10 lg:w-2/3 2xl:w-1/2">
         <div className="pb-5 lg:pb-5 2xl:pb-5">
           <p className="playfair-display text-4xl">Stack</p>
-          <p className="josefin-sans text-xl text-gray-400 pt-2">
+          <p className="josefin-sans text-xl text-gray-400 pt-2 tracking-tight lg:tracking-normal 2xl:tracking-normal">
             My technical skills & expertise at a glance.
           </p>
         </div>
         <div className="skills_List">
           <div className="grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-12">
-            <div className="border border-red-600 col-span-5 p-5">
+            <div className="col-span-1 lg:col-span-5 p-0 lg:p-5 2xl:p-5 overflow-hidden">
               {/* list of skills icon */}
-              <p className="font-semibold montserrat"></p>
+              <div className="icons">
+                <div className="grid grid-cols-3 text-6xl mx-auto gap-4 text-gray-400">
+                  <div className="rounded-lg hover:shadow-xl hover:text-green-500 hover:border transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <MongoDBIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-black hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <ExpressIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-cyan-500 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <ReactIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-green-500 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <NodeIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-purple-700 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <ReduxIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-orange-400 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <HtmlIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-blue-500 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <CssIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-yellow-400 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <JavaScriptIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-blue-700 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <JqueryIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-cyan-500 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <TailwindIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-cyan-400 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <MUIIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-blue-700 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4 ">
+                    <MDBIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-purple-700 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <BootstrapIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-black hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <GitIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-blue-800 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <JavaIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-green-500 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <SpringIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-red-600 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <MysqlIcon />
+                  </div>
+                  <div className="rounded-lg  hover:shadow-xl hover:text-blue-400 hover:border   transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
+                    <DataStructureIcon />
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-span-7 text-justify lg:p-5">
+            <div className="col-span-1 lg:col-span-7 text-justify lg:p-5">
               {/* list of skills */}
               <ul className="list-disc ms-5 pt-5 lg:pt-0">
                 <li>
