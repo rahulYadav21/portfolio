@@ -16,11 +16,13 @@ export default function About() {
         <div className="grid grid-rows-1 lg:grid-rows-1 lg:grid-cols-12">
           <div className="col-span-12 lg:col-span-5">
             <div className="p-0 lg:pt-5 lg:pe-5 lg:pb-5 lg:ps-0 justify-center flex">
-              <img
-                src="public/profile-pic/photo_5_2024-07-12_00-28-55.jpg"
-                className="w-full lg:w-full size-fit lg:size-fit"
-                alt="about image is not apear"
-              />
+              <div className="flex">
+                <img
+                  src="public/profile-pic/photo_5_2024-07-12_00-28-55.jpg"
+                  className="w-full lg:w-full size-fit lg:size-fit"
+                  alt="about image is not apear"
+                />
+              </div>
             </div>
           </div>
           <div className="col-span-12 lg:col-span-7">

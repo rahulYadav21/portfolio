@@ -19,6 +19,7 @@ import {
   SpringIcon,
   TailwindIcon,
 } from "../icons.Comopnent/icons.Comopnent";
+import Work from "../work.Component/work.Component";
 
 export default function Stack() {
   return (
@@ -153,6 +154,7 @@ export default function Stack() {
           </div>
         </div>
       </div>
+      <Work />
     </>
   );
 }
