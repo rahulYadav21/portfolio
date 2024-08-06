@@ -4,7 +4,12 @@ import Stack from "../stack.Component/stack.Component";
 export default function About() {
   return (
     <>
-      <div className="about container mx-auto p-5 pt-10 pb-10 lg:w-2/3 2xl:w-1/2">
+      <div
+        id="about"
+        smooth={true}
+        duration={500}
+        className="about container mx-auto p-5 pt-10 pb-10 lg:w-2/3 2xl:w-1/2"
+      >
         <div className="container pb-3 mx-auto">
           <p className="playfair-display text-4xl">About me.</p>
 
@@ -50,12 +55,15 @@ export default function About() {
               <ul className="list-disc ms-10">
                 <li className="mt-2">
                   <span className="font-semibold italic tracking-tighter lg:tracking-normal montserrat">
-                    Web Developer at GeekMantra Solutions Pvt. Ltd.:
+                    Software Developer at GeekMantra Solutions Pvt. Ltd.:
                   </span>{" "}
                   <p className="josefin-sans text-gray-400">
-                    Developed and customized responsive web applications,
-                    demonstrating a keen ability to deliver high-quality
-                    solutions.
+                    Developed and maintained client websites using HTML, CSS,
+                    JavaScript, and jQuery. Engineered key features and created
+                    responsive designs, ensuring cross-browser compatibility.
+                    Collaborated with teams to deliver consistent user
+                    experiences and performed quality assurance for optimal
+                    performance.
                   </p>
                 </li>
                 <li className="mt-2">
@@ -93,7 +101,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <Stack />
     </>
   );
 }

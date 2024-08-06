@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./home.Component.css";
 import Svg from "./svg.Component/svg.Home.Component";
 import Social from "./social.Home.Components/social.Home.Components";
@@ -7,23 +7,47 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { cilArrowCircleBottom } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
-import About from "../about.Component/about.component";
 export default function Home() {
   const email = "yadavrahul.cs@gmail.com";
-  const copiedEmail = () => {
-    navigator.clipboard
-      .writeText(email)
-      .then(() => {
-        alert("Email(yadavrahul.cs@gmail.com) copied on clipboard");
-      })
-      .catch((err) => {
-        console.error("failed to copy", err);
-      });
+
+  const copiedEmail = async () => {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      try {
+        await navigator.clipboard.writeText(email);
+        alert("Email : yadavrahul.cs@gmail.com copied");
+      } catch (err) {
+        console.log("Email not copied : ", err);
+        alert("email not copied");
+      }
+    } else {
+      // for unsupported environment
+      const input = document.createElement("input");
+      input.value = email;
+      input.type = "text";
+      input.style.display = "none";
+
+      document.body.appendChild(input);
+      input.focus();
+      input.select();
+
+      try {
+        document.execCommand("copy");
+        alert("Rahul's email copied");
+      } catch (err) {
+        console.log("email not copied : ", err);
+        alert("email not copied");
+      }
+      document.body.removeChild(input);
+    }
   };
+  // for stick after refresh page on top
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
-      <div className="home">
+      <div className="home" id="home">
         <div className="container mx-auto p-5 pb-10 lg:pb-9 2xl:pb-32">
           <HeadText />
           <Social />
@@ -54,7 +78,10 @@ export default function Home() {
                 </p>
                 {/* buttons */}
                 <div className="flex space-x-1 gap-1 justify-center md:justify-start lg:justify-start xl:justify-start 2xl:justify-start">
-                  <button className="px-10 py-1 bg-gray-200 text-gray-800 rounded-lg shadow-md hover:shadow-lg hover:bg-purple-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 transform duration-300">
+                  <button
+                    onClick={() => (window.location.href = `mailto:${email}`)}
+                    className="px-10 py-1 bg-gray-200 text-gray-800 rounded-lg shadow-md hover:shadow-lg hover:bg-purple-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 transform duration-300"
+                  >
                     Contact me <FontAwesomeIcon icon={faEnvelope} />
                   </button>
                   <button
@@ -77,7 +104,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <About />
     </>
   );
 }

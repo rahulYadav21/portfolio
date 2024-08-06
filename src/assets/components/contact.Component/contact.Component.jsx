@@ -15,7 +15,10 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 export default function Contact() {
   return (
     <>
-      <div className="container mx-auto p-5 pt-10 pb-10 lg:w-2/3 2xl:w-1/2">
+      <div
+        id="contact"
+        className="container mx-auto p-5 pt-10 pb-10 lg:w-2/3 2xl:w-1/2"
+      >
         <div className="pb-5 lg:pb-5 2xl:pb-5">
           <p className="playfair-display text-4xl">Contact</p>
           <p className="josefin-sans text-xl text-gray-400 pt-2 tracking-tight lg:tracking-normal 2xl:tracking-normal">
@@ -24,7 +27,14 @@ export default function Contact() {
         </div>
         <div className="contactForm w-4/5">
           <div>
-            <span className="italic">Download Resume</span>
+            <a
+              className="italic underline text-purple-400 hover:text-lg font-bold"
+              download="resume_RahulYadav.pdf"
+              target="blank"
+              href="https://drive.google.com/file/d/1BfanjZGGMy67RxFI1a-eSft1SYL3777g/view?usp=sharing"
+            >
+              Download Resume
+            </a>
           </div>
           <br />
           <dl>
@@ -36,15 +46,41 @@ export default function Contact() {
             <dt>Social : </dt>
             <dd className="">
               &mdash; &nbsp;
-              <FontAwesomeIcon icon={faFacebookF} />
+              <a
+                href="https://facebook.com"
+                target="blank"
+                aria-label="Facebook"
+              >
+                <FontAwesomeIcon icon={faFacebookF} />
+              </a>
               &nbsp;
-              <FontAwesomeIcon icon={faYoutube} />
+              <a href="https://youtube.com" target="blank" aria-label="YouTube">
+                <FontAwesomeIcon icon={faYoutube} />
+              </a>
               &nbsp;
-              <FontAwesomeIcon icon={faInstagram} />
+              <a
+                href="https://www.instagram.com/rahul_ihawk/?hl=en"
+                target="blank"
+                aria-label="Instagram"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
               &nbsp;
-              <FontAwesomeIcon icon={faGithub} />
+              <a
+                href="https://github.com/rahulYadav21"
+                target="blank"
+                aria-label="Github"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
               &nbsp;
-              <FontAwesomeIcon icon={faLinkedinIn} />
+              <a
+                href="https://www.linkedin.com/in/rahul0597/"
+                target="blank"
+                aria-label="Linkedin"
+              >
+                <FontAwesomeIcon icon={faLinkedinIn} />
+              </a>
             </dd>
           </dl>
         </div>

@@ -24,7 +24,10 @@ import Work from "../work.Component/work.Component";
 export default function Stack() {
   return (
     <>
-      <div className="container mx-auto p-5 pt-10 pb-10 lg:w-2/3 2xl:w-1/2">
+      <div
+        id="stack"
+        className="container mx-auto p-5 pt-10 pb-10 lg:w-2/3 2xl:w-1/2"
+      >
         <div className="pb-5 lg:pb-5 2xl:pb-5">
           <p className="playfair-display text-4xl">Stack</p>
           <p className="josefin-sans text-xl text-gray-400 pt-2 tracking-tight lg:tracking-normal 2xl:tracking-normal">
@@ -154,7 +157,6 @@ export default function Stack() {
           </div>
         </div>
       </div>
-      <Work />
     </>
   );
 }

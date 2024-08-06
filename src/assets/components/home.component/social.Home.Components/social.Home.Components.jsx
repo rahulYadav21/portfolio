@@ -1,11 +1,8 @@
-import { cibLeetcode } from "@coreui/icons";
-import CIcon from "@coreui/icons-react";
 import {
   faFacebookF,
   faGithub,
   faInstagram,
   faLinkedinIn,
-  faXTwitter,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,17 +15,22 @@ export default function Social() {
       <div className="home-social-handles">
         <div className="flex justify-center">
           <div className="grid grid-rows-1 grid-cols-6 gap-10 text-3xl md:gap-24 lg:gap-28 2xl:gap-32 lg:pt-10 2xl:pt-0">
-            <a href="https://facebook.com" aria-label="Facebook">
+            <a href="https://facebook.com" target="blank" aria-label="Facebook">
               <FontAwesomeIcon
                 icon={faFacebookF}
                 className="text-gray-300 hover:text-blue-700 duration-300 transform hover:scale-125"
               />
             </a>
-            <a href="https://leetcode.com/u/iHAWK/" aria-label="leetcode">
+            <a
+              href="https://leetcode.com/u/iHAWK/"
+              target="blank"
+              aria-label="leetcode"
+            >
               <LeetcodeIcon />
             </a>
             <a
               href="https://www.instagram.com/rahul_ihawk/?hl=en"
+              target="blank"
               aria-label="Instagram"
             >
               <FontAwesomeIcon
@@ -36,7 +38,11 @@ export default function Social() {
                 className="text-gray-300 hover:text-pink-700 duration-300 transform hover:scale-125"
               />
             </a>
-            <a href="https://github.com/rahulYadav21" aria-label="Github">
+            <a
+              href="https://github.com/rahulYadav21"
+              target="blank"
+              aria-label="Github"
+            >
               <FontAwesomeIcon
                 icon={faGithub}
                 className="text-gray-300 hover:text-black duration-300 transform hover:scale-125"
@@ -44,6 +50,7 @@ export default function Social() {
             </a>
             <a
               href="https://www.linkedin.com/in/rahul0597/"
+              target="blank"
               aria-label="Linkedin"
             >
               <FontAwesomeIcon
@@ -51,7 +58,7 @@ export default function Social() {
                 className="text-gray-300 hover:text-blue-900 duration-300 transform hover:scale-125"
               />
             </a>
-            <a href="https://youtube.com" aria-label="YouTube">
+            <a href="https://youtube.com" target="blank" aria-label="YouTube">
               <FontAwesomeIcon
                 icon={faYoutube}
                 className="text-gray-300 hover:text-red-700 duration-300 transform hover:scale-125"
