@@ -19,7 +19,7 @@ import {
   SpringIcon,
   TailwindIcon,
 } from "../icons.Comopnent/icons.Comopnent";
-import Work from "../work.Component/work.Component";
+import "./stack.Component.css";
 
 export default function Stack() {
   return (
@@ -35,11 +35,11 @@ export default function Stack() {
           </p>
         </div>
         <div className="skills_List">
-          <div className="grid grid-rows-2 grid-cols-1 lg:grid-rows-1 lg:grid-cols-12">
-            <div className="col-span-1 lg:col-span-5 p-0 lg:p-5 2xl:p-5 overflow-hidden">
+          <div className="grid grid-rows-1 grid-cols-1 lg:grid-rows-1 lg:grid-cols-12">
+            <div className="icons_left col-span-1 lg:col-span-5 2xl:col-span-5 p-0 lg:p-5 2xl:p-5">
               {/* list of skills icon */}
               <div className="icons">
-                <div className="grid grid-cols-3 text-6xl mx-auto gap-4 text-gray-400">
+                <div className="grid grid-cols-4 text-4xl gp-2 mx-auto lg:grid-cols-3 2xl:grid-cols-3 lg:text-5xl 2xl:text-6xl lg:gap-4 2xl:gap-4 text-gray-400">
                   <div className="rounded-lg hover:shadow-xl hover:text-green-500 hover:border transform duration-500 flex items-center justify-center  p-4 lg:p-4 2xl:p-4">
                     <MongoDBIcon />
                   </div>
@@ -97,7 +97,7 @@ export default function Stack() {
                 </div>
               </div>
             </div>
-            <div className="col-span-1 lg:col-span-7 text-justify lg:p-5">
+            <div className=" flex flex-col col-span-1 lg:col-span-7 2xl:col-span-7 text-justify lg:p-5">
               {/* list of skills */}
               <ul className="list-disc ms-5 pt-5 lg:pt-0">
                 <li>

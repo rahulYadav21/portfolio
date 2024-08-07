@@ -9,14 +9,7 @@ export default function HeadText() {
           I'm a&nbsp;
           <ReactTyped
             className="home-typed-text text-purple-400"
-            strings={[
-              "Engineer",
-              "Coder",
-              "Designer",
-              "Developer",
-              "Creator",
-              "Innovator",
-            ]}
+            strings={["Engineer", "Coder", "Developer", "Innovator"]}
             typeSpeed={100}
             backSpeed={100}
             loop

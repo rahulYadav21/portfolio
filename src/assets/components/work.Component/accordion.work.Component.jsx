@@ -1,4 +1,3 @@
-import { faWpexplorer } from "@fortawesome/free-brands-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, {
@@ -34,7 +33,7 @@ export function AccordionItems({ children, value, triger, ...props }) {
   const ref = useRef(null);
 
   return (
-    <li className="border-b" {...props}>
+    <li className="border-b border-b-purple-400" {...props}>
       <header
         role="button"
         onClick={() => setSelect(open ? null : value)}

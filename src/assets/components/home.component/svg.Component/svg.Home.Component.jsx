@@ -14,13 +14,16 @@ const Svg = () => {
           {/* Place the image inside the clipping path */}
           <image
             className="svg-image "
-            href={"public/profile-pic/photo_9_2024-07-12_00-28-55.jpg"}
+            href={
+              "https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/photo_9_2024-07-12_00-28-55.jpg?alt=media&token=3c080ea6-3a51-46d1-b67f-2a22cc4b74f9"
+            }
             x="0"
             y="0"
             width="330"
             height="450"
             clipPath="url(#polygon-clip)"
             preserveAspectRatio="xMidYMid slice"
+            alt="Maybe Rahul go somewhere !!"
           />
           {/* Optional: Outline the polygon */}
           <polygon
