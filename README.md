@@ -13,5 +13,4 @@ git status
 git commit -m "your message"
 gti push -->
 
-![My Portfolio]([images/online-examination.png](https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/chrome-capture-2024-8-7%20(1).png?alt=media&token=a140f16a-149f-4ca9-ba62-4db0d0af8c7d))
-
+![My Portfolio](https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/chrome-capture-2024-8-7%20(1).png?alt=media&token=a140f16a-149f-4ca9-ba62-4db0d0af8c7d)
