@@ -59,9 +59,9 @@ export default function Work() {
                     </p>
                   </div>
                   <div className="flex space-x-1 gap-1 justify-center md:justify-start lg:justify-start xl:justify-start 2xl:justify-start">
-                    <a href="" target="blank">
+                    <a href="https://portfolio-five-blond-10.vercel.app/" target="blank">
                       <button
-                        disabled
+                        
                         className="px-8 lg:px-10 2xl:px-10 py-1 lg:py-1 2xl:py-1 bg-gray-200 text-gray-800 rounded-lg shadow-md hover:shadow-lg hover:bg-purple-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 transform duration-300"
                       >
                         Hosted link &nbsp;
