@@ -57,7 +57,7 @@ export default function About() {
                   <span className="font-semibold italic tracking-tighter lg:tracking-normal montserrat">
                     Software Developer at GeekMantra Solutions Pvt. Ltd.:
                   </span>{" "}
-                  <p className="ms-3 lg:ms-5 2xl:ms-5 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
+                  <p className="ms-3 lg:ms-0 2xl:ms-0 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
                     Developed and maintained client websites using HTML, CSS,
                     JavaScript, and jQuery. Engineered key features and created
                     responsive designs, ensuring cross-browser compatibility.
@@ -70,7 +70,7 @@ export default function About() {
                   <span className="font-semibold montserrat  italic tracking-tighter lg:tracking-normal">
                     Internship at Newton School:
                   </span>{" "}
-                  <p className="ms-3 lg:ms-5 2xl:ms-5 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
+                  <p className="ms-3 lg:ms-0 2xl:ms-0 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
                     Enhanced skills in the MERN stack, responsive web design,
                     Redux, Tailwind, MDB, and Next, further solidifying
                     expertise in front-end development.
@@ -80,7 +80,7 @@ export default function About() {
                   <span className="font-semibold montserrat  italic tracking-tighter lg:tracking-normal">
                     Internship at Sathya Technologies Pvt. Ltd.:
                   </span>{" "}
-                  <p className="ms-3 lg:ms-5 2xl:ms-5 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
+                  <p className="ms-3 lg:ms-0 2xl:ms-0 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
                     Focused on Java development, gaining proficiency in J2SE,
                     J2EE, JDBC, Servlet, JSP, MySQL, Spring, SpringBoot,
                     Hibernate, REST APIs, and Collections.
@@ -90,8 +90,8 @@ export default function About() {
                   <span className="font-semibold montserrat  italic tracking-tighter lg:tracking-normal">
                     Internship at Taxtron Technologies Pvt. Ltd.:
                   </span>{" "}
-                  <p className="ms-3 lg:ms-5 2xl:ms-5 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
-                    ~ Specialized in front-end development using HTML, CSS,
+                  <p className="ms-3 lg:ms-0 2xl:ms-0 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
+                    Specialized in front-end development using HTML, CSS,
                     JavaScript, and Bootstrap, and contributed to effective
                     design.
                   </p>

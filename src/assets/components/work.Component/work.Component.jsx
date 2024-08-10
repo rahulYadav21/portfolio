@@ -59,11 +59,11 @@ export default function Work() {
                     </p>
                   </div>
                   <div className="flex space-x-1 gap-1 justify-center md:justify-start lg:justify-start xl:justify-start 2xl:justify-start">
-                    <a href="https://portfolio-five-blond-10.vercel.app/" target="blank">
-                      <button
-                        
-                        className="px-8 lg:px-10 2xl:px-10 py-1 lg:py-1 2xl:py-1 bg-gray-200 text-gray-800 rounded-lg shadow-md hover:shadow-lg hover:bg-purple-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 transform duration-300"
-                      >
+                    <a
+                      href="https://portfolio-five-blond-10.vercel.app/"
+                      target="blank"
+                    >
+                      <button className="px-8 lg:px-10 2xl:px-10 py-1 lg:py-1 2xl:py-1 bg-gray-200 text-gray-800 rounded-lg shadow-md hover:shadow-lg hover:bg-purple-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 transform duration-300">
                         Hosted link &nbsp;
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                       </button>
@@ -116,14 +116,17 @@ export default function Work() {
                     </p>
                   </div>
                   <div className="flex space-x-1 gap-1 justify-center md:justify-start lg:justify-start xl:justify-start 2xl:justify-start">
-                    <a href="https://ghummakad-repo.vercel.app/" target="blank">
+                    <a
+                      href="https://ghummakad-react.vercel.app/"
+                      target="blank"
+                    >
                       <button className="px-8 lg:px-10 2xl:px-10 py-1 lg:py-1 2xl:py-1 bg-gray-200 text-gray-800 rounded-lg shadow-md hover:shadow-lg hover:bg-purple-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-500 transform duration-300">
                         Hosted link &nbsp;
                         <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
                       </button>
                     </a>
                     <a
-                      href="https://github.com/rahulYadav21/GhummakadWebApp"
+                      href="https://github.com/rahulYadav21/Ghummakad_React/tree/master"
                       target="blank"
                     >
                       <button className="px-8 lg:px-10 2xl:px-10 py-1 lg:py-1 2xl:py-1 bg-gray-400 text-black rounded-lg shadow-md hover:bg-purple-400 hover:text-white hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-gray-700 transform duration-500">
