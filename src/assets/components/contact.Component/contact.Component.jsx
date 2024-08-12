@@ -31,7 +31,7 @@ export default function Contact() {
               className="italic underline text-purple-400 hover:text-lg font-bold"
               download="resume_RahulYadav.pdf"
               target="blank"
-              href="https://drive.google.com/file/d/1BfanjZGGMy67RxFI1a-eSft1SYL3777g/view?usp=sharing"
+              href="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/Resume_jul24.pdf?alt=media&token=bcb563cb-842d-4025-89eb-93b43209e6c0"
             >
               Download Resume
             </a>
