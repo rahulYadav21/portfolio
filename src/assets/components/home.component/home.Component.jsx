@@ -7,6 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { cilArrowCircleBottom } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
+import {
+  faCloudDownload,
+  faCloudDownloadAlt,
+  faDownload,
+  faFileDownload,
+} from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   const email = "yadavrahul.cs@gmail.com";
 
@@ -60,13 +66,32 @@ export default function Home() {
             </div>
             <div className="flex items-center lg:col-span-1 lg:w-4/5 xl:w-4/5 2xl:w-4/5 2xl:-mx-44 lg:-mx-28 ">
               <div className="profile-text">
-                <h1 className="playfair-display text-5xl">Rahul Yadav</h1>
+                <h1 className="playfair-display text-5xl">
+                  Rahul Yadav{" "}
+                  <span>
+                    <a
+                      className="italic underline text-purple-400 hover:text-lg font-bold"
+                      download="resume_RahulYadav.pdf"
+                      target="blank"
+                      href="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/Resume_jul24.pdf?alt=media&token=bcb563cb-842d-4025-89eb-93b43209e6c0"
+                    >
+                      <abbr
+                        className="cursor-help"
+                        title="Click for Download Resume"
+                      >
+                        <sup className="text-xl">
+                          <FontAwesomeIcon icon={faFileDownload} />
+                        </sup>
+                      </abbr>
+                    </a>
+                  </span>
+                </h1>
                 <blockquote>
                   <i className="Montserrat text-xl">
                     &mdash; Software Engineer
                   </i>
                 </blockquote>
-                <hr class="border-t border-purple-400" />
+                <hr className="border-t border-purple-400" />
 
                 <p className="text-justify pb-4 josefin-sans text-gray-400 tracking-tighter lg:tracking-normal">
                   I am Rahul Yadav, a passionate and dedicated software engineer
