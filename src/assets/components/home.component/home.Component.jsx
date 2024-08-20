@@ -7,12 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopy, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { cilArrowCircleBottom } from "@coreui/icons";
 import CIcon from "@coreui/icons-react";
-import {
-  faCloudDownload,
-  faCloudDownloadAlt,
-  faDownload,
-  faFileDownload,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFileDownload } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   const email = "yadavrahul.cs@gmail.com";
 
