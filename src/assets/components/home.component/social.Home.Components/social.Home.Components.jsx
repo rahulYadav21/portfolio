@@ -15,7 +15,11 @@ export default function Social() {
       <div className="home-social-handles">
         <div className="flex justify-center">
           <div className="grid grid-rows-1 grid-cols-6 gap-10 text-3xl md:gap-24 lg:gap-28 2xl:gap-32 lg:pt-10 2xl:pt-0">
-            <a href="https://facebook.com" target="blank" aria-label="Facebook">
+            <a
+              href="https://www.facebook.com/profile.php?id=100089319769432"
+              target="blank"
+              aria-label="Facebook"
+            >
               <FontAwesomeIcon
                 icon={faFacebookF}
                 className="text-gray-300 hover:text-blue-700 duration-300 transform hover:scale-125"
@@ -58,7 +62,11 @@ export default function Social() {
                 className="text-gray-300 hover:text-blue-900 duration-300 transform hover:scale-125"
               />
             </a>
-            <a href="https://youtube.com" target="blank" aria-label="YouTube">
+            <a
+              href="https://www.youtube.com/@RahulYadav-ib9qp"
+              target="blank"
+              aria-label="YouTube"
+            >
               <FontAwesomeIcon
                 icon={faYoutube}
                 className="text-gray-300 hover:text-red-700 duration-300 transform hover:scale-125"
