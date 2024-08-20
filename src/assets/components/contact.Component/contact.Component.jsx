@@ -47,14 +47,18 @@ export default function Contact() {
             <dd className="">
               &mdash; &nbsp;
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=100089319769432"
                 target="blank"
                 aria-label="Facebook"
               >
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
               &nbsp;
-              <a href="https://youtube.com" target="blank" aria-label="YouTube">
+              <a
+                href="https://www.youtube.com/@RahulYadav-ib9qp"
+                target="blank"
+                aria-label="YouTube"
+              >
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
               &nbsp;
