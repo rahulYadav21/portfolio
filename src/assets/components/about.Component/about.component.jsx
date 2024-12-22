@@ -23,7 +23,9 @@ export default function About() {
             <div className="p-0 lg:pt-5 lg:pe-5 lg:pb-5 lg:ps-0 justify-center flex">
               <div className="flex">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/photo_5_2024-07-12_00-28-55.jpg?alt=media&token=2326e748-d386-4bc6-b9ff-91e6850bb13d"
+                  // src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/photo_5_2024-07-12_00-28-55.jpg?alt=media&token=2326e748-d386-4bc6-b9ff-91e6850bb13d"
+                  src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/IMG_20241022_153915139_HDR-01.jpeg?alt=media&token=41591fe6-bad0-40f2-a5a0-f72d6e0db261"
+                  // src="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/IMG_20241022_154041903-01.jpeg?alt=media&token=8c447d57-a80d-4dd1-b999-8dcb0f222c4a"
                   className="w-full lg:w-full size-fit lg:size-fit"
                   alt="Maybe Rahul go somewhere !!"
                 />
@@ -55,15 +57,57 @@ export default function About() {
               <ul className="list-disc ms-3 lg:ms-5 2xl:ms-5 lg:mb-5 2xl:mb-5 ">
                 <li className="mt-2">
                   <span className="font-semibold italic tracking-tighter lg:tracking-normal montserrat">
+                    Full-Stack Developer at Moolya Software Testing Pvt. Ltd.:
+                  </span>{" "}
+                  <p className="ms-3 lg:ms-0 2xl:ms-0 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
+                    <ul className="experianceList">
+                      <li>
+                        Contributed to the development of{" "}
+                        <strong className="underline">Bugasura.io</strong>, a
+                        bug tracking and management product.
+                      </li>
+                      <li>
+                        Design and implement the Modal test case feature, which
+                        allows users to add test cases with detailed
+                        descriptions, severity levels, feature associations, and
+                        assignments to relevant team members.
+                      </li>
+                      <li>
+                        Developed and maintained code using PHP with the Phalcon
+                        PHP framework, ensuring efficient and scalable
+                        application performance.
+                      </li>
+                      <li>
+                        PHP, Phalcon, MySQL, JavaScript, HTML, CSS, Bootstrap,
+                        jQuery, jQuery UI, Git, Ubuntu
+                      </li>
+                    </ul>
+                  </p>
+                </li>
+                <li className="mt-2">
+                  <span className="font-semibold italic tracking-tighter lg:tracking-normal montserrat">
                     Software Developer at GeekMantra Solutions Pvt. Ltd.:
                   </span>{" "}
                   <p className="ms-3 lg:ms-0 2xl:ms-0 lg:mb-2 2xl:mb-2 josefin-sans text-gray-400">
-                    Developed and maintained client websites using HTML, CSS,
-                    JavaScript, and jQuery. Engineered key features and created
-                    responsive designs, ensuring cross-browser compatibility.
-                    Collaborated with teams to deliver consistent user
-                    experiences and performed quality assurance for optimal
-                    performance.
+                    <ul className="experianceList">
+                      <li>
+                        Developed web applications using HTML, CSS, and
+                        JavaScript, with a focus on user-friendly interfaces.
+                      </li>
+                      <li>
+                        Specialized in designing and customizing responsive
+                        layouts for various devices.
+                      </li>
+                      <li>
+                        Designed and optimized multiple prototypes efficiently,
+                        showcasing functional designs.
+                      </li>
+                      <li>
+                        Using Bootstrap and jQuery to enhance functionality and
+                        streamline development.
+                      </li>
+                      <li>JavaScript, HTML, CSS, Bootstrap, jQuery</li>
+                    </ul>
                   </p>
                 </li>
                 <li className="mt-2">

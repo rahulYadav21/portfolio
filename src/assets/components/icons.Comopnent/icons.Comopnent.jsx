@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../home.component/home.Component.css";
 export const MongoDBIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -148,7 +148,7 @@ export const LeetcodeIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="1em"
     height="1em"
-    className="text-gray-300 hover:text-gray-700 duration-300 transform hover:scale-125"
+    className="text-gray-300 LeetcodeIcon duration-300 transform hover:scale-125"
     viewBox="0 0 24 24"
   >
     <path

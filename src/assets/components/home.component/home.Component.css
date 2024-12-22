@@ -6,7 +6,16 @@
   display: inline-block;
   font-weight: bold;
   animation: blink 0.5s infinite;
-  color: gold;
+  color: yellowgreen;
+}
+
+.Facebook,
+.Instagram,
+.Github,
+.Linkedin,
+.YouTube,
+.LeetcodeIcon {
+  color: #e49bff !important;
 }
 
 @keyframes blink {

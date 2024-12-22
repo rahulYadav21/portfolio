@@ -1,3 +1,5 @@
+/* color palette used https://colorhunt.co/palette/f9f9f9f6ecbfcaaddec886e5 */
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap");
@@ -18,4 +20,10 @@
 }
 .cinter {
   font-family: "Inter", sans-serif;
+}
+.text-purple-custom {
+  color: #c886e5 !important;
+}
+.text-lightPurple-custom {
+  color: #e49bff !important;
 }

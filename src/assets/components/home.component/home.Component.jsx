@@ -65,10 +65,11 @@ export default function Home() {
                   Rahul Yadav{" "}
                   <span>
                     <a
-                      className="italic underline text-purple-400 hover:text-lg font-bold"
+                      className="italic underlin text-lightPurple-custom hover:text-lg font-bold"
                       download="resume_RahulYadav.pdf"
                       target="blank"
-                      href="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/Resume_jul24.pdf?alt=media&token=bcb563cb-842d-4025-89eb-93b43209e6c0"
+                      // href="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/Resume_jul24.pdf?alt=media&token=bcb563cb-842d-4025-89eb-93b43209e6c0"
+                      href="https://firebasestorage.googleapis.com/v0/b/portfolio-8a914.appspot.com/o/resumeRahulYadav.pdf?alt=media&token=f262c8ed-ae70-4f57-afdf-680067085e16"
                     >
                       <abbr
                         className="cursor-help"

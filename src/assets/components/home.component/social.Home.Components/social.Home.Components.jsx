@@ -22,7 +22,7 @@ export default function Social() {
             >
               <FontAwesomeIcon
                 icon={faFacebookF}
-                className="text-gray-300 hover:text-blue-700 duration-300 transform hover:scale-125"
+                className="text-gray-300 Facebook duration-300 transform hover:scale-125"
               />
             </a>
             <a
@@ -39,7 +39,7 @@ export default function Social() {
             >
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="text-gray-300 hover:text-pink-700 duration-300 transform hover:scale-125"
+                className="text-gray-300 Instagram duration-300 transform hover:scale-125"
               />
             </a>
             <a
@@ -49,7 +49,7 @@ export default function Social() {
             >
               <FontAwesomeIcon
                 icon={faGithub}
-                className="text-gray-300 hover:text-black duration-300 transform hover:scale-125"
+                className="text-gray-300 Github duration-300 transform hover:scale-125"
               />
             </a>
             <a
@@ -59,7 +59,7 @@ export default function Social() {
             >
               <FontAwesomeIcon
                 icon={faLinkedinIn}
-                className="text-gray-300 hover:text-blue-900 duration-300 transform hover:scale-125"
+                className="text-gray-300 Linkedin duration-300 transform hover:scale-125"
               />
             </a>
             <a
@@ -69,7 +69,7 @@ export default function Social() {
             >
               <FontAwesomeIcon
                 icon={faYoutube}
-                className="text-gray-300 hover:text-red-700 duration-300 transform hover:scale-125"
+                className="text-gray-300 YouTube duration-300 transform hover:scale-125"
               />
             </a>
           </div>

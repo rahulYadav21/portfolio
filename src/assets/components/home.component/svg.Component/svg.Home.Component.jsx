@@ -28,7 +28,7 @@ const Svg = () => {
           {/* Optional: Outline the polygon */}
           <polygon
             points="150,15 258,77 258,202 150,265 42,202 42,77"
-            className="fill-none stroke-purple-400 stroke-[4px] "
+            className="fill-none stroke-purple-500 stroke-[4px] "
           />
           Sorry, your browser does not support inline SVG.
         </svg>
